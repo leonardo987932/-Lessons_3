@@ -1,0 +1,68 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+* {
+	color: #2e8b57;
+}
+nav span {
+	color: #0000ff;
+}
+.paragraph2,
+.paragraph5 {
+	color: #deb887;
+}
+.museum p {
+	color: #7fff00;
+}
+.content span {
+	color: #a9a9a9;
+}
+.basilica > p {
+	color: #8b008b;
+}
+.castle > p > span {
+	color: #4b0012;
+}
+.partpart {
+	color: #0000cd;
+}
+h2 {
+	color: #cd853f;
+}
+ol > li {
+	color: #6a5acd;
+}
+span {
+	color: red;
+}
+.part > a {
+	color: #000000;
+}
